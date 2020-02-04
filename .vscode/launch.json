@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "MultiplayerLearn (Debug)",
+			"request": "launch",
+			"preLaunchTask": "MultiplayerLearn Win64 Debug Build",
+			"program": "E:\\UE4\\_Tutorials\\Multiplayer\\MultiplayerLearn\\Binaries\\Win64\\MultiplayerLearn-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MultiplayerLearn (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "MultiplayerLearn Win64 DebugGame Build",
+			"program": "E:\\UE4\\_Tutorials\\Multiplayer\\MultiplayerLearn\\Binaries\\Win64\\MultiplayerLearn-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MultiplayerLearn (Development)",
+			"request": "launch",
+			"preLaunchTask": "MultiplayerLearn Win64 Development Build",
+			"program": "E:\\UE4\\_Tutorials\\Multiplayer\\MultiplayerLearn\\Binaries\\Win64\\MultiplayerLearn.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MultiplayerLearn (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "MultiplayerLearn Win64 Shipping Build",
+			"program": "E:\\UE4\\_Tutorials\\Multiplayer\\MultiplayerLearn\\Binaries\\Win64\\MultiplayerLearn-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MultiplayerLearn (Test)",
+			"request": "launch",
+			"preLaunchTask": "MultiplayerLearn Win64 Test Build",
+			"program": "E:\\UE4\\_Tutorials\\Multiplayer\\MultiplayerLearn\\Binaries\\Win64\\MultiplayerLearn-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MultiplayerLearnEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "MultiplayerLearnEditor Win64 Debug Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"E:\\UE4\\_Tutorials\\Multiplayer\\MultiplayerLearn\\MultiplayerLearn.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MultiplayerLearnEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "MultiplayerLearnEditor Win64 DebugGame Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"E:\\UE4\\_Tutorials\\Multiplayer\\MultiplayerLearn\\MultiplayerLearn.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MultiplayerLearnEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "MultiplayerLearnEditor Win64 Development Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"E:\\UE4\\_Tutorials\\Multiplayer\\MultiplayerLearn\\MultiplayerLearn.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"E:\\UE4\\_Tutorials\\Multiplayer\\MultiplayerLearn\\MultiplayerLearn.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+		}
+	]
+}

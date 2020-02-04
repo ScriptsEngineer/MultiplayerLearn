@@ -1,0 +1,7 @@
+{
+	"files.exclude": {
+		"E:/UE4/_Tutorials/Multiplayer/MultiplayerLearn/.vscode": true,
+		"E:/UE4/_Tutorials/Multiplayer/MultiplayerLearn/Content": true,
+		"E:/UE4/_Tutorials/Multiplayer/MultiplayerLearn/Intermediate": true
+	}
+}
